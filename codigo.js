@@ -1,16 +1,16 @@
 
 
-const num1= parseInt(prompt('ingrese el primer número:')); 
-const num2= parseInt(prompt('ingrese el segundo número:'));
-const num3= parseInt(prompt('ingrese el tercer número:'));
-// const num4= parseInt(prompt('ingrese el cuarto número:', ''));
-// const num5= parseInt(prompt('ingrese el quinto número:', ''));
-let numeros =[num1,num2,num3]
-let masGrande = 0;
-for(let i = 0; i<numeros.length; i++) {
-    if (numeros[i]>masGrande){masGrande=numeros[i];}
-}
-document.write(`el mayor es ${masGrande}`) 
+// const num1= parseInt(prompt('ingrese el primer número:')); 
+// const num2= parseInt(prompt('ingrese el segundo número:'));
+// const num3= parseInt(prompt('ingrese el tercer número:'));
+// // const num4= parseInt(prompt('ingrese el cuarto número:', ''));
+// // const num5= parseInt(prompt('ingrese el quinto número:', ''));
+// let numeros =[num1,num2,num3]
+// let masGrande = 0;
+// for(let i = 0; i<numeros.length; i++) {
+//     if (numeros[i]>masGrande){masGrande=numeros[i];}
+// }
+// document.write(`el mayor es ${masGrande}`) 
 // if(num1>num2 && num1>num3 ){document.write (`el mayor es el ${num1}`)}
 // else if( num2 > num3 ){document.write(`el mayor es ${num2}`)}
 // else{document.write(`el mayor es ${num3}`)}
@@ -39,3 +39,5 @@ document.write(`el mayor es ${masGrande}`)
 // 		} else{
 // 			document.write(`${nombre} NO esta aprobado con un ${nota}`);
 // 		}
+
+
